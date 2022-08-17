@@ -1,0 +1,23 @@
+section.home-container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40vh auto;
+}
+button.counter-button {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: transparent;
+    color: #ffffff;
+    border: 2px solid var(--color-text);
+    cursor: pointer;
+}
+button.counter-button:hover {
+    border: 2px solid #ffffff;
+}
+h1.text {
+    color: #ffffff;
+    width: 50px;
+}
